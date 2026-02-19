@@ -1,5 +1,34 @@
-# Vue 3 + Vite
+# DAZO CHAT APP
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Technical Home Test - Chatbot App
+Built with Vue.js, Vite, Tailwindcss, DaisyUI
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+Integrated with https://github.com/Luthfiyanto/Dazo-Test-API
+
+## Installation
+
+1. Clone repository
+
+```bash
+git clone https://github.com/Luthfiyanto/Dazo-Chat.git
+```
+
+2. Install dependencies
+
+```bash
+npm install
+```
+
+3. Copy environment file to be .env.local
+
+```bash
+cp .env.sample .env.local
+```
+
+4. Configure your API_URL
+
+5. Run Server
+
+```bash
+npm run dev
+```
