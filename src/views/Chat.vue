@@ -32,6 +32,9 @@ const sendMessage = async () => {
 <template>
   <section class="grid grid-cols-1 md:grid-cols-2">
     <div class="chat p-7 bg-slate-800 min-h-screen">
+      <h1 class="text-center font-bold text-3xl my-2">Welcome Back Rover!</h1>
+
+      <ChatBubble role="ai" msg="What can I help you?" />
       <div v-for="(m, i) in message" :key="i">
         <ChatBubble :role="m.role" :msg="m.text" />
       </div>
@@ -43,6 +46,6 @@ const sendMessage = async () => {
         <button @click="sendMessage" class="btn btn-primary btn-soft">Send</button>
       </div>
     </div>
-    <div></div>
+    <div class="bg-[url('./bg-blackshore.jpg')] bg-cover bg-center w-full"></div>
   </section>
 </template>
